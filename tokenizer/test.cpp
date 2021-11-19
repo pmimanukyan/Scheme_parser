@@ -11,7 +11,6 @@ TEST_CASE("Tokenizer works on simple case") {
 
     REQUIRE(!tokenizer.IsEnd());
 
-    // If next line fails to compile, check that operator == is defined for every token type.
     REQUIRE(tokenizer.GetToken() == Token{ConstantToken{4}});
 
     tokenizer.Next();
