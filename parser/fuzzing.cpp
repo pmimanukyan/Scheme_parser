@@ -1,6 +1,6 @@
 #include <catch.hpp>
 
-#include "../test/fuzzer.h"
+#include "../fuzzer.h"
 #include "../tokenizer.h"
 #include "../parser.h"
 #include "../error.h"
